@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="mykeyboar.css">
+</head>
+<style>
+body{
+    font-weight: 600;
+    background-color: rgb(62, 128, 194);
+    align-items: center;
+}
+.pa32{
+  color: black;
+ display: flex;
+  justify-content: space-evenly;
+  font-weight: 50;
+}
+.pa32:hover{
+  color:blue;
+  cursor:pointer;
+}
+.container{
+    height: 290px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(169, 145, 236);
+    margin-left: auto;
+    margin-right: auto;
+}
+.pa7{
+    border-color: white;
+    height: 39px;
+  color:red;
+    width: 250px;
+    margin-top: 305px;
+    border-radius: 20px;
+}
+.pa8,.pa9, .pa10, .pa11, .pa12, .pa13, .pa14, .pa15, .pa16, .pa17, .pa18, .pa19, .pa20, .pa21, .pa22, .pa23, .pa24, .pa25{
+    height: 30px;
+    width: 28px;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+}
+.pa20{
+    height: 30px;
+}
+.pa1{
+    margin-top: 10px;
+}
+.pa2{
+    margin-top: 10px;
+}
+.pa3, .pa4{
+    margin-top: 10px;
+}
+.box{
+    height: 580px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(198, 196, 196);
+    margin-left: auto;
+    margin-right: auto;
+}
+.pa30, .pa31{
+    background-color: grey; 
+    height: 30px; 
+    border-radius: 6px;
+    border-color: white;
+    font-weight: 600;
+}
+.pa26{
+    background-color: grey;
+    width: 35px;
+    height: 30px;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+}
+.pa5{
+    width: 99px;
+    height: 30px;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+}
+.pa6{
+  margin-bottom: 10px;
+    background-color: grey;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+    width:75px ;
+    height: 30px;
+}
+</style>
+<body>
+ 
+    <div class="box">
+    <div class="container">
+      <p>&copy;heather</p>
+    <input type="text" class="pa7" id="box" placeholder="&copy;heather">
+    <div class="pa1">
+        
+        <input type="button" class="pa8" value="Q" onclick="mykeyboard('Q')">
+        <input type="button"  class="pa9"value="W" onclick="mykeyboard('W')">
+        <input type="button"  class="pa10"value="E" onclick="mykeyboard('E')">
+        <input type="button"  class="pa11"value="R" onclick="mykeyboard('R')">
+        <input type="button"  class="pa12"value="T" onclick="mykeyboard('T')">
+        <input type="button"  class="pa13"value="U" onclick="mykeyboard('U')">
+        <input type="button"  class="pa14"value="I" onclick="mykeyboard('I')">
+        <input type="button"  class="pa15"value="O" onclick="mykeyboard('O')">
+        <input type="button"  class="pa16"value="P" onclick="mykeyboard('P')">
+        
+    </div>
+    <div class="pa2">
+
+        <input type="button" class="pa17" value="A" onclick="mykeyboard('A')">
+        <input type="button" class="pa18" value="S" onclick="mykeyboard('S')">
+        <input type="button"  class="pa19"value="D" onclick="mykeyboard('D')">
+        <input type="button"  class="pa20"value="F" onclick="mykeyboard('F')">
+        <input type="button"  class="pa21"value="G" onclick="mykeyboard('G')">
+        <input type="button"  class="pa22"value="H" onclick="mykeyboard('H')">
+        <input type="button"  class="pa23"value="J" onclick="mykeyboard('J')">
+        <input type="button" class="pa24" value="K" onclick="mykeyboard('K')">
+             <input type="button" class="pa24" value="L" onclick="mykeyboard('L')">
+        
+    </div>
+    <div class="pa3">
+        <input type="button"  class="pa25"value="☆" onclick="mykeyboard('☆')">
+        <input type="button"  class="pa8"value="Z" onclick="mykeyboard('Z')">
+        <input type="button"  class="pa8"value="X" onclick="mykeyboard('X')">
+        <input type="button" class="pa8" value="C" onclick="mykeyboard('C')">
+        <input type="button"  class="pa8"value="V" onclick="mykeyboard('V')">
+        <input type="button"  class="pa8"value="B" onclick="mykeyboard('B')">
+        <input type="button"  class="pa8"value="N" onclick="mykeyboard('N')">
+        <input type="button" class="pa8" value="M" onclick="mykeyboard('M')">
+        <input type="button"  class="pa31"value="del" onclick="mykeyboard('del')">
+        
+    </div>
+    <div class="pa4">
+        <input type="button"  class="pa26"value="123" onclick="mykeyboard('123')">
+        <input type="button"  class="pa30"value="@" onclick="mykeyboard('@')">
+        <input type="button"  class="pa8"value="😀" onclick="mykeyboard('😀')">
+        <input type="button" class="pa5" value="space" onclick="mykeyboard('space')">
+        <input type="button" class="pa6" value="return" onclick="mykeyboard('return')">
+       </div> 
+      <div class="pa32">
+      <i class="fa fa-pause"></i>
+            <i class="fa fa-home"></i>
+            <i class="fa fa-play"></i>
+      </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+let keyboard =''
+const sum2 =
+document.getElementById('box');
+function mykeyboard(key){
+    if (key ==='del'){
+        box.value=
+        box.value.slice(0, -1);
+    }
+else if(key === 'space'){
+    box.value +='  ';
+}
+    else if(key === 'Q'){
+        box.value+='Q';
+    }
+    else if(key === 'W'){
+        box.value+='W';
+    }
+    else if(key === 'E'){
+        box.value+='E';
+    }
+    else if(key === 'R'){
+        box.value+='R';
+    }
+    else if(key === 'T'){
+        box.value+='T';
+    }
+    else if(key === 'U'){
+        box.value+='U';
+    }
+    else if(key === 'I'){
+        box.value+='I';
+    }
+    else if(key === 'O'){
+        box.value+='O';
+    }
+    else if(key === 'P'){
+        box.value+='P';
+    }
+    else if(key === 'A'){
+        box.value+='A';
+    }
+    else if(key === 'S'){
+        box.value+='S';
+    }
+    else if(key === 'D'){
+        box.value+='D';
+    }
+    else if(key === 'F'){
+        box.value+='F';
+    }
+    else if(key === 'G'){
+        box.value+='G';
+    }
+    else if(key === 'H'){
+        box.value+='H';
+    }
+    else if(key === 'J'){
+        box.value+='J';
+    }
+    else if(key === 'K'){
+        box.value+='K';
+    }
+    else if(key === 'L'){
+        box.value+='L';
+    }
+    else if(key === 'Z'){
+        box.value+='Z';
+    }
+    else if(key === 'X'){
+        box.value+='X';
+    }
+    else if(key === 'C'){
+        box.value+='C';
+    }
+    else if(key === 'V'){
+        box.value+='V';
+    }
+    else if(key === 'B'){
+        box.value+='B';
+    }
+    else if(key === 'N'){
+        box.value+='N';
+    }
+    else if(key === 'M'){
+        box.value+='M';
+    }
+    else if(key ==='return'){
+        box.value ='';
+    }
+}
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

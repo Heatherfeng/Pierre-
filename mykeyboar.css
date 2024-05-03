@@ -1,0 +1,84 @@
+body{
+    font-weight: 600;
+    background-color: rgb(62, 128, 194);
+    align-items: center;
+}
+.pa32{
+  color: black;
+ display: flex;
+  justify-content: space-evenly;
+  font-weight: 50;
+}
+.container{
+    height: 290px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(169, 145, 236);
+    margin-left: auto;
+    margin-right: auto;
+}
+.pa7{
+    border-color: white;
+    height: 39px;
+    width: 250px;
+    margin-top: 305px;
+    border-radius: 20px;
+}
+.pa8,.pa9, .pa10, .pa11, .pa12, .pa13, .pa14, .pa15, .pa16, .pa17, .pa18, .pa19, .pa20, .pa21, .pa22, .pa23, .pa24, .pa25{
+    height: 30px;
+    width: 28px;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+}
+.pa20{
+    height: 30px;
+}
+.pa1{
+    margin-top: 10px;
+}
+.pa2{
+    margin-top: 10px;
+}
+.pa3, .pa4{
+    margin-top: 10px;
+}
+.box{
+    height: 580px;
+    border-radius: 7px;
+    width: 300px;
+    background-color: rgb(198, 196, 196);
+    margin-left: auto;
+    margin-right: auto;
+}
+.pa30, .pa31{
+    background-color: grey; 
+    height: 30px; 
+    border-radius: 6px;
+    border-color: white;
+    font-weight: 600;
+}
+.pa26{
+    background-color: grey;
+    width: 35px;
+    height: 30px;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+}
+.pa5{
+    width: 99px;
+    height: 30px;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+}
+.pa6{
+  margin-bottom: 10px;
+    background-color: grey;
+    font-weight: 600;
+    border-color: white;
+    border-radius: 6px;
+    width:75px ;
+    height: 30px;
+}

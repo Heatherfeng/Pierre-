@@ -1,0 +1,29 @@
+img{
+  height: 50px;
+  width: 50px;
+  
+}
+h4{
+  text-align: center;
+}
+.pa3{
+  text-decoration: none;
+  color: lightskyblue;
+}
+.pa1, .pa2{
+  height: 45px;
+  width: 400px;
+  border-radius: 7px;
+  border-color: white;
+  margin-bottom: 30px;
+}
+.fa-google, .fa-apple{
+  font-size: 25px;
+    margin: 0px 20px 0px 5px;
+}
+body{
+  margin-top: 400px;
+  text-align: center;
+  color:white;
+  background: linear-gradient(to right ,steelblue,black)
+}
